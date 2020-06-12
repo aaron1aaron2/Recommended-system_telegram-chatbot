@@ -6,7 +6,7 @@ import os
 
 from src import distance_method, data_helper
 
-class RecommendModel:
+class Model:
     '''直接使用數值去對公司五個指數，算出公司的特徵向量，此向量可以一定程度的代表各公司長期的一個體質。
     我們透過將使用者的訂閱資料(0.7)和搜尋紀錄(0.3)中所有有出現的股票，取得其對應的特徵，並找出特徵向量
     相近的公司推薦該使用者。'''
@@ -81,7 +81,7 @@ class RecommendModel:
 
 
 if __name__ == '__main__':
-    stock_model_num = RecommendModel(
+    stock_model_num = Model(
         search_record_path = 'data/0410-0416_user_history.csv',
         subscribed_data_path = 'data/0319-0417_subscribe_wl.csv',
         # stock_data_path = 'data/collected_data.csv',
