@@ -91,9 +91,9 @@ if __name__ == '__main__':
 
     result_rank_edc = stock_model_num.get_recommend(1544, rtype='stock_rank')
 
-    result_ls_cos = stock_model_num.get_recommend(1544, rtype='stock_distance', method = 'cosine')
-    result_ls_edc = stock_model_num.get_recommend(1544, rtype='stock_distance', method = 'euclidean')
-    result_ls_pear = stock_model_num.get_recommend(1544, rtype='stock_distance', method = 'pearsonr')
+    # result_ls_cos = stock_model_num.get_recommend(1544, rtype='stock_distance', method = 'cosine')
+    # result_ls_edc = stock_model_num.get_recommend(1544, rtype='stock_distance', method = 'euclidean')
+    # result_ls_pear = stock_model_num.get_recommend(1544, rtype='stock_distance', method = 'pearsonr')
 
-    result_ls_spear = stock_model_num.get_recommend(1544, rtype='stock_distance', method = 'spearmanr')
-    result_ls_ken = stock_model_num.get_recommend(1544, rtype='stock_distance', method = 'kendall')
+    # result_ls_spear = stock_model_num.get_recommend(1544, rtype='stock_distance', method = 'spearmanr')
+    # result_ls_ken = stock_model_num.get_recommend(1544, rtype='stock_distance', method = 'kendall')

@@ -34,7 +34,8 @@ class ChatBot(Agent):
     def call_m2(self, uid:int=123):
         m2 = similar_user_recommend.Model(
             weight_user_industry_path = 'data/m2/weight_user_industry.csv',
-            subscribe_wl_path = 'data/m2/subscribe_wl.csv'
+            subscribe_wl_path = 'data/m2/subscribe_wl.csv',
+            stock_data_path = 'data/m2/stock.pickle'
         )
         output = m2.recommendation(int(uid))
 
