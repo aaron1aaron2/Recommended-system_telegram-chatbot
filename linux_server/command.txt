@@ -1,0 +1,2 @@
+ssh -i fintech_key.pem ec2-user@ec2-34-207-162-174.compute-1.amazonaws.com
+ssh -i <your key file> <user-name>@<Public DNS (IPv4) for instances>
