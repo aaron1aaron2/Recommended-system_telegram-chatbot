@@ -54,5 +54,5 @@
 4. cd 到 fugle_telegram_chatbot ，輸入 ngrok http 5000
 5. 在同個目錄底下建立 `config.ini` : WEBHOOK_URL = ngrok 啟動後的 網址, ACCESS_TOKEN = 你的 telegram bot api 
 6. 執行程式建立 server 
-7. 加入機器人好友 [fintech](http://t.me/aaron_fugle_bot)
+7. 加入機器人好友 [fintech](http://t.me/myfugle_bot)
 
