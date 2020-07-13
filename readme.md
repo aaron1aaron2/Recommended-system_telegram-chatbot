@@ -33,8 +33,10 @@
 - flask==1.1.2 
 - telegram==0.0.1
 - python_telegram_bot==12.7
-- pyngrok==2.1.7 : 自動化驅動 ngrok
-- fugle-realtime==0.2.8 : fugle api 
+### 自動化驅動 ngrok
+- pyngrok==2.1.7 
+### fugle api 
+- fugle-realtime==0.2.8
 
 ## Step 1 : 申請 telegram chatbot 
 這個 part 主要以建立新的 chatbot 為主，設定的化其實蠻人性化的，就自己研究吧。 
