@@ -24,9 +24,18 @@
 - [參考網站](https://medium.com/@zaoldyeck/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%80%8E%E9%BA%BC%E6%89%93%E9%80%A0-telegram-bot-a7b539c3402a)
 - [telegram api](https://core.telegram.org/bots/api)
 ## 需求
-- pip install telegram
-- pip install --upgrade python-telegram-bot
-- 
+### 資料處理
+- scipy==1.4.1
+- pandas==1.0.3
+- scikit-learn==0.22.2
+### 建立 wekhook
+- requests==2.23.0
+- flask==1.1.2 
+- telegram==0.0.1
+- python_telegram_bot==12.7
+- pyngrok==2.1.7 : 自動化驅動 ngrok
+- fugle-realtime==0.2.8 : fugle api 
+
 ## Step 1 : 申請 telegram chatbot 
 這個 part 主要以建立新的 chatbot 為主，設定的化其實蠻人性化的，就自己研究吧。 
 1. 加入 BotFather 好友後，它會親切地問候，並告訴你他能為你提供什麼服務。
